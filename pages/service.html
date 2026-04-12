@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services - Portfolio</title>
+  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <link rel="stylesheet" href="../css/all.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./service.html">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- a. Page Title Section -->
+  <section class="bg-primary text-white py-5 text-center">
+    <div class="container">
+      <h1 class="display-4">Our Services</h1>
+      <p class="lead">Discover what we offer to help your business grow</p>
+    </div>
+  </section>
+
+  <!-- b. All Service Grid Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-5 text-center">Services We Provide</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-sm h-100 text-center p-3">
+            <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+            <h5>Web Development</h5>
+            <p>Custom websites with modern technologies & responsive design.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-sm h-100 text-center p-3">
+            <i class="fas fa-mobile-alt fa-3x text-success mb-3"></i>
+            <h5>Mobile Apps</h5>
+            <p>Cross-platform mobile apps to reach your customers anytime.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-sm h-100 text-center p-3">
+            <i class="fas fa-search-dollar fa-3x text-warning mb-3"></i>
+            <h5>SEO Optimization</h5>
+            <p>Improve your site’s ranking & visibility to attract more visitors.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-sm h-100 text-center p-3">
+            <i class="fas fa-cloud fa-3x text-info mb-3"></i>
+            <h5>Cloud Solutions</h5>
+            <p>Reliable, scalable cloud hosting and integration services.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- c. Client Section -->
+  <section class="bg-light py-5">
+  <div class="container">
+    <h2 class="mb-5 text-center fw-bold">Our Clients</h2>
+    <div class="row justify-content-center align-items-center g-4">
+      <div class="col-6 col-sm-4 col-md-2 text-center">
+        <div class="client-logo p-3 bg-white rounded shadow-sm">
+          <img src="../src/portfoilo.jpg" alt="Client 1" class="img-fluid" />
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 text-center">
+        <div class="client-logo p-3 bg-white rounded shadow-sm">
+          <img src="../src/portfoilo.jpg" alt="Client 2" class="img-fluid" />
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 text-center">
+        <div class="client-logo p-3 bg-white rounded shadow-sm">
+          <img src="../src/portfoilo.jpg" alt="Client 3" class="img-fluid" />
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 text-center">
+        <div class="client-logo p-3 bg-white rounded shadow-sm">
+          <img src="../src/portfoilo.jpg" alt="Client 4" class="img-fluid" />
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 text-center">
+        <div class="client-logo p-3 bg-white rounded shadow-sm">
+          <img src="../src/portfoilo.jpg" alt="Client 5" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- d. FAQ Section with Bootstrap Accordion -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Frequently Asked Questions</h2>
+
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              What technologies do you use for web development?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              We primarily use HTML5, CSS3, JavaScript, React.js, and Node.js to build modern, responsive websites.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Can you develop mobile apps for both iOS and Android?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"            data-bs-parent="#faqAccordion">          >
+            <div class="accordion-body">
+              Yes, we develop cross-platform apps using frameworks like React Native and Flutter for both iOS and Android.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How long does it take to complete a typical project?
+            </button>
+          </h2>
+          <div
+            id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion"          >
+            <div class="accordion-body">
+              Project duration varies, but usually ranges from 4 to 12 weeks depending on complexity and requirements.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Do you offer SEO and marketing services?
+            </button>
+          </h2>
+          <div
+            id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">          >
+            <div class="accordion-body">
+              Yes, we provide comprehensive SEO optimization and digital marketing to boost your online presence.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              What kind of support do you offer after project delivery?
+            </button>
+          </h2>
+          <div
+            id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              We offer 3 months of free support, including bug fixes, updates, and minor enhancements.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Start -->
+    <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p class="mb-0">
+            © 2024 Md. Faiyaz Uddin Sumon. All rights reserved. | 
+            <span id="datetime"></span>
+        </p>
+        <div class="mt-2">
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</footer>
+</div>
+<!-- Footer End -->
+
+
+<script src="./js/bootstrap.bundle.js"></script>
+    
+<!-- Live Date & Time Script -->
+<script>
+  function updateDateTime() {
+    const now = new Date();
+    const options = {
+      weekday: 'short',
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: true
+    };
+    document.getElementById('datetime').textContent = now.toLocaleString('en-US', options);
+  }
+
+  setInterval(updateDateTime, 1000);
+  updateDateTime();
+</script>
+</body>
+</html>
